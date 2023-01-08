@@ -10,3 +10,38 @@ Execute these commands to run the docer containers:
 - docker-compose build
 - docker-compose up -d
 - for i in {1..30}; do curl http://localhost:9090; done
+
+The result expected of this last command is 3 requests sended to service2 and 3 to service1, like this example:
+
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest1
+
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest1
+
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest2
+OKtest1
+OKtest2
+OKtest2
+OKtest2
+OKtest2
