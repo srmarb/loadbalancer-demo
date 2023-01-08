@@ -1,6 +1,8 @@
 # loadbalancer-demo
 
-Execute these commands:
+This is a loadbalancer example with two springboot applications, sending 10% of requests to service1 and 90% of requests to service2. 
+Execute these commands to run the docer containers:
+
 - mvn clean install
 - docker-compose build
 - docker-compose up -d
