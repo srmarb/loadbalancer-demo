@@ -14,7 +14,7 @@ public class HomeController {
     private String test;
 
     @GetMapping
-    public String test(@PathVariable final String id) {
+    public String test() {
         return "OK" + test;
     }
 
